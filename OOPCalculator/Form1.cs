@@ -38,41 +38,34 @@ namespace OOPCalculator
             
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument + secondArgument;
-            textBox3.Text = result.ToString();
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument - secondArgument;
-            textBox3.Text = result.ToString();
-        }
-
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument * secondArgument;
-            textBox3.Text = result.ToString();
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            double firstArgument = Convert.ToDouble(textBox1.Text);
-            double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result = firstArgument / secondArgument;
-            textBox3.Text = result.ToString();
-        }
-
         private void TextBox3_TextChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void Calculate(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "Add":
+                    result = firstArgument + secondArgument;
+                    break;
+                case "Substraction":
+                    result = firstArgument - secondArgument;
+                    break;
+                case "Multiplication":
+                    result = firstArgument * secondArgument;
+                    break;
+                case "Division":
+                    result = firstArgument / secondArgument;
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
+            textBox3.Text = result.ToString();
         }
     }
 }
