@@ -38,6 +38,7 @@ namespace OOPCalculator
             
         }
 
+
         private void TextBox3_TextChanged(object sender, EventArgs e)
         {
            
@@ -48,7 +49,7 @@ namespace OOPCalculator
             double firstArgument = Convert.ToDouble(textBox1.Text);
             double secondArgument = Convert.ToDouble(textBox2.Text);
             double result;
-            switch (((Button)sender).Name)
+            /*switch (((Button)sender).Name)
             {
                 case "Add":
                     result = firstArgument + secondArgument;
@@ -64,7 +65,9 @@ namespace OOPCalculator
                     break;
                 default:
                     throw new Exception("Неизвестная операция");
-            }
+            }*/
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button) sender).Name);
+            result = calculator.Calculate(firstArgument, secondArgument);
             textBox3.Text = result.ToString();
         }
     }

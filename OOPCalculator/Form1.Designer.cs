@@ -32,7 +32,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Add = new System.Windows.Forms.Button();
-            this.Substraction = new System.Windows.Forms.Button();
+            this.Subtraction = new System.Windows.Forms.Button();
             this.Multiplication = new System.Windows.Forms.Button();
             this.Division = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -74,15 +74,15 @@
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Calculate);
             // 
-            // Substraction
+            // Subtraction
             // 
-            this.Substraction.Location = new System.Drawing.Point(179, 114);
-            this.Substraction.Name = "Substraction";
-            this.Substraction.Size = new System.Drawing.Size(75, 23);
-            this.Substraction.TabIndex = 4;
-            this.Substraction.Text = "-";
-            this.Substraction.UseVisualStyleBackColor = true;
-            this.Substraction.Click += new System.EventHandler(this.Calculate);
+            this.Subtraction.Location = new System.Drawing.Point(179, 114);
+            this.Subtraction.Name = "Subtraction";
+            this.Subtraction.Size = new System.Drawing.Size(75, 23);
+            this.Subtraction.TabIndex = 4;
+            this.Subtraction.Text = "-";
+            this.Subtraction.UseVisualStyleBackColor = true;
+            this.Subtraction.Click += new System.EventHandler(this.Calculate);
             // 
             // Multiplication
             // 
@@ -142,7 +142,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Division);
             this.Controls.Add(this.Multiplication);
-            this.Controls.Add(this.Substraction);
+            this.Controls.Add(this.Subtraction);
             this.Controls.Add(this.Add);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -161,7 +161,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button Add;
-        private System.Windows.Forms.Button Substraction;
+        private System.Windows.Forms.Button Subtraction;
         private System.Windows.Forms.Button Multiplication;
         private System.Windows.Forms.Button Division;
         private System.Windows.Forms.Label label1;
