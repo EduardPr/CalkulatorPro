@@ -41,6 +41,7 @@
             this.Sin = new System.Windows.Forms.Button();
             this.Cos = new System.Windows.Forms.Button();
             this.Tan = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -165,11 +166,22 @@
             this.Tan.UseVisualStyleBackColor = true;
             this.Tan.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Arcsin
+            // 
+            this.Arcsin.Location = new System.Drawing.Point(325, 200);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(75, 23);
+            this.Arcsin.TabIndex = 13;
+            this.Arcsin.Text = "Arcsin";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Tan);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.Sin);
@@ -206,6 +218,7 @@
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button Cos;
         private System.Windows.Forms.Button Tan;
+        private System.Windows.Forms.Button Arcsin;
     }
 }
 

@@ -14,6 +14,8 @@ namespace OOPCalculator
                     return new CosinusCalculator();
                 case "Tan":
                     return new TanCalculator();
+                case "Arcsin":
+                    return new ArcsinCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
 
