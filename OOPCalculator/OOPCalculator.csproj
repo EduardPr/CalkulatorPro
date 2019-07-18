@@ -62,6 +62,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="OneArgumentCalculator\IOneArgumentCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculator\GeometricMeanCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\MaxCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\MinCalculator.cs" />

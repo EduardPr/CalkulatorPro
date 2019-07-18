@@ -22,6 +22,8 @@ namespace OOPCalculator
                     return new MaxCalculator();
                 case "Arith":
                     return new ArithmeticMeanCalculator();
+                case "Geom":
+                    return new GeometricMeanCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -48,6 +48,7 @@
             this.Min = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
             this.Arith = new System.Windows.Forms.Button();
+            this.Geom = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -242,11 +243,22 @@
             this.Arith.UseVisualStyleBackColor = true;
             this.Arith.Click += new System.EventHandler(this.Calculate);
             // 
+            // Geom
+            // 
+            this.Geom.Location = new System.Drawing.Point(109, 200);
+            this.Geom.Name = "Geom";
+            this.Geom.Size = new System.Drawing.Size(75, 23);
+            this.Geom.TabIndex = 20;
+            this.Geom.Text = "Geom";
+            this.Geom.UseVisualStyleBackColor = true;
+            this.Geom.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Geom);
             this.Controls.Add(this.Arith);
             this.Controls.Add(this.Max);
             this.Controls.Add(this.Min);
@@ -297,6 +309,7 @@
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button Arith;
+        private System.Windows.Forms.Button Geom;
     }
 }
 
