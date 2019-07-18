@@ -4,16 +4,17 @@ using OOPCalculator.TwoArgumentsCalculator;
 namespace OOPCalcultor.Tests.TwoArgumentsCalculator
 {
     [TestFixture]
-    public class LogXTests
+    public class ArithmeticMeanCalculatorTests
     {
-        [TestCase(1, 2, 0)]
-        [TestCase(2, 2, 1)]
-        [TestCase(4, 2, 2)]
+        [TestCase(2, 2, 2)]
+        [TestCase(3, 3, 3)]
+        [TestCase(4, 4, 4)]
+
         public void CalculateTest(double firstValue, double secondValue, double expected)
 
         {
-            var calculator = new LogX();
-            var actualResult = calculator.Calculate(firstValue,secondValue);
+            var calculator = new ArithmeticMeanCalculator();
+            var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
     }

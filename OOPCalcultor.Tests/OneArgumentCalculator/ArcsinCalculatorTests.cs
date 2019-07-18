@@ -4,16 +4,16 @@ using OOPCalculator.OneArgumentCalculator;
 namespace OOPCalcultor.Tests.OneArgumentCalculator
 {
     [TestFixture]
-    public class Log10CalculatorTests
+    public class ArcsinCalculatorTests
     {
-        [TestCase(1, 0)]
-        [TestCase(10, 1)]
-        [TestCase(100, 2)]
+        [TestCase(1, 1.5707)]
+        [TestCase(-1, -1.5707)]
+        [TestCase(0, 0)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new Log10Calculator();
+            var calculator = new ArcsinCalculator();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expected, actualResult, 0.0001);
         }
     }
 }
