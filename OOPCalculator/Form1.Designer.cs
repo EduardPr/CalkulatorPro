@@ -44,6 +44,7 @@
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
             this.Ctan = new System.Windows.Forms.Button();
+            this.Arctan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -190,7 +191,7 @@
             // 
             // Ctan
             // 
-            this.Ctan.Location = new System.Drawing.Point(640, 199);
+            this.Ctan.Location = new System.Drawing.Point(586, 199);
             this.Ctan.Name = "Ctan";
             this.Ctan.Size = new System.Drawing.Size(75, 23);
             this.Ctan.TabIndex = 15;
@@ -198,11 +199,22 @@
             this.Ctan.UseVisualStyleBackColor = true;
             this.Ctan.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Arctan
+            // 
+            this.Arctan.Location = new System.Drawing.Point(689, 199);
+            this.Arctan.Name = "Arctan";
+            this.Arctan.Size = new System.Drawing.Size(75, 23);
+            this.Arctan.TabIndex = 16;
+            this.Arctan.Text = "Arctan";
+            this.Arctan.UseVisualStyleBackColor = true;
+            this.Arctan.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Ctan);
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
@@ -245,6 +257,7 @@
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;
         private System.Windows.Forms.Button Ctan;
+        private System.Windows.Forms.Button Arctan;
     }
 }
 
