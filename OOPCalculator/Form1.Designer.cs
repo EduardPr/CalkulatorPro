@@ -52,6 +52,7 @@
             this.Remainder = new System.Windows.Forms.Button();
             this.Expow = new System.Windows.Forms.Button();
             this.Log10 = new System.Windows.Forms.Button();
+            this.Log2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -286,11 +287,22 @@
             this.Log10.UseVisualStyleBackColor = true;
             this.Log10.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Log2
+            // 
+            this.Log2.Location = new System.Drawing.Point(433, 199);
+            this.Log2.Name = "Log2";
+            this.Log2.Size = new System.Drawing.Size(75, 23);
+            this.Log2.TabIndex = 24;
+            this.Log2.Text = "Log2";
+            this.Log2.UseVisualStyleBackColor = true;
+            this.Log2.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Log2);
             this.Controls.Add(this.Log10);
             this.Controls.Add(this.Expow);
             this.Controls.Add(this.Remainder);
@@ -349,6 +361,7 @@
         private System.Windows.Forms.Button Remainder;
         private System.Windows.Forms.Button Expow;
         private System.Windows.Forms.Button Log10;
+        private System.Windows.Forms.Button Log2;
     }
 }
 
