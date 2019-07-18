@@ -32,6 +32,8 @@ namespace OOPCalculator.TwoArgumentsCalculator
                     return new XPow1DivisionYCalculator();
                 case "LogX":
                     return new LogX();
+                case "RadiusVector":
+                    return new PointRadiusVectorCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

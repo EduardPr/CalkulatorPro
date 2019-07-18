@@ -58,6 +58,7 @@
             this.XPowY = new System.Windows.Forms.Button();
             this.XPow1DivisionY = new System.Windows.Forms.Button();
             this.LogX = new System.Windows.Forms.Button();
+            this.RadiusVector = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -352,11 +353,22 @@
             this.LogX.UseVisualStyleBackColor = true;
             this.LogX.Click += new System.EventHandler(this.Calculate);
             // 
+            // RadiusVector
+            // 
+            this.RadiusVector.Location = new System.Drawing.Point(190, 229);
+            this.RadiusVector.Name = "RadiusVector";
+            this.RadiusVector.Size = new System.Drawing.Size(75, 23);
+            this.RadiusVector.TabIndex = 30;
+            this.RadiusVector.Text = "RadiusVector";
+            this.RadiusVector.UseVisualStyleBackColor = true;
+            this.RadiusVector.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.RadiusVector);
             this.Controls.Add(this.LogX);
             this.Controls.Add(this.XPow1DivisionY);
             this.Controls.Add(this.XPowY);
@@ -427,6 +439,7 @@
         private System.Windows.Forms.Button XPowY;
         private System.Windows.Forms.Button XPow1DivisionY;
         private System.Windows.Forms.Button LogX;
+        private System.Windows.Forms.Button RadiusVector;
     }
 }
 
