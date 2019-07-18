@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Sin = new System.Windows.Forms.Button();
             this.Cos = new System.Windows.Forms.Button();
+            this.Tan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -154,11 +155,22 @@
             this.Cos.UseVisualStyleBackColor = true;
             this.Cos.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Tan
+            // 
+            this.Tan.Location = new System.Drawing.Point(190, 201);
+            this.Tan.Name = "Tan";
+            this.Tan.Size = new System.Drawing.Size(75, 23);
+            this.Tan.TabIndex = 12;
+            this.Tan.Text = "Tan";
+            this.Tan.UseVisualStyleBackColor = true;
+            this.Tan.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Tan);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.Sin);
             this.Controls.Add(this.label3);
@@ -193,6 +205,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Tan;
     }
 }
 

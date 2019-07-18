@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentCalculator\TanCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />
     <Compile Include="OneArgumentCalculator\CosinusCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculator.cs" />

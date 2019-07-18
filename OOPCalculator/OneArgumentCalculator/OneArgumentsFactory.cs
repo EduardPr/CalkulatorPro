@@ -12,6 +12,8 @@ namespace OOPCalculator
                     return new SinusCalculator();
                 case "Cos":
                     return new CosinusCalculator();
+                case "Tan":
+                    return new TanCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
 
