@@ -45,6 +45,7 @@
             this.Arccos = new System.Windows.Forms.Button();
             this.Ctan = new System.Windows.Forms.Button();
             this.Arctan = new System.Windows.Forms.Button();
+            this.Min = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -83,7 +84,7 @@
             // 
             // Subtraction
             // 
-            this.Subtraction.Location = new System.Drawing.Point(179, 114);
+            this.Subtraction.Location = new System.Drawing.Point(208, 113);
             this.Subtraction.Name = "Subtraction";
             this.Subtraction.Size = new System.Drawing.Size(75, 23);
             this.Subtraction.TabIndex = 4;
@@ -93,7 +94,7 @@
             // 
             // Multiplication
             // 
-            this.Multiplication.Location = new System.Drawing.Point(414, 114);
+            this.Multiplication.Location = new System.Drawing.Point(459, 113);
             this.Multiplication.Name = "Multiplication";
             this.Multiplication.Size = new System.Drawing.Size(75, 23);
             this.Multiplication.TabIndex = 5;
@@ -141,7 +142,7 @@
             // 
             // Sin
             // 
-            this.Sin.Location = new System.Drawing.Point(65, 203);
+            this.Sin.Location = new System.Drawing.Point(28, 170);
             this.Sin.Name = "Sin";
             this.Sin.Size = new System.Drawing.Size(75, 23);
             this.Sin.TabIndex = 10;
@@ -151,7 +152,7 @@
             // 
             // Cos
             // 
-            this.Cos.Location = new System.Drawing.Point(505, 202);
+            this.Cos.Location = new System.Drawing.Point(352, 170);
             this.Cos.Name = "Cos";
             this.Cos.Size = new System.Drawing.Size(75, 23);
             this.Cos.TabIndex = 11;
@@ -161,7 +162,7 @@
             // 
             // Tan
             // 
-            this.Tan.Location = new System.Drawing.Point(190, 201);
+            this.Tan.Location = new System.Drawing.Point(109, 170);
             this.Tan.Name = "Tan";
             this.Tan.Size = new System.Drawing.Size(75, 23);
             this.Tan.TabIndex = 12;
@@ -171,7 +172,7 @@
             // 
             // Arcsin
             // 
-            this.Arcsin.Location = new System.Drawing.Point(325, 200);
+            this.Arcsin.Location = new System.Drawing.Point(190, 170);
             this.Arcsin.Name = "Arcsin";
             this.Arcsin.Size = new System.Drawing.Size(75, 23);
             this.Arcsin.TabIndex = 13;
@@ -181,7 +182,7 @@
             // 
             // Arccos
             // 
-            this.Arccos.Location = new System.Drawing.Point(414, 202);
+            this.Arccos.Location = new System.Drawing.Point(271, 170);
             this.Arccos.Name = "Arccos";
             this.Arccos.Size = new System.Drawing.Size(75, 23);
             this.Arccos.TabIndex = 14;
@@ -191,7 +192,7 @@
             // 
             // Ctan
             // 
-            this.Ctan.Location = new System.Drawing.Point(586, 199);
+            this.Ctan.Location = new System.Drawing.Point(433, 170);
             this.Ctan.Name = "Ctan";
             this.Ctan.Size = new System.Drawing.Size(75, 23);
             this.Ctan.TabIndex = 15;
@@ -201,7 +202,7 @@
             // 
             // Arctan
             // 
-            this.Arctan.Location = new System.Drawing.Point(689, 199);
+            this.Arctan.Location = new System.Drawing.Point(514, 170);
             this.Arctan.Name = "Arctan";
             this.Arctan.Size = new System.Drawing.Size(75, 23);
             this.Arctan.TabIndex = 16;
@@ -209,11 +210,22 @@
             this.Arctan.UseVisualStyleBackColor = true;
             this.Arctan.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Min
+            // 
+            this.Min.Location = new System.Drawing.Point(596, 170);
+            this.Min.Name = "Min";
+            this.Min.Size = new System.Drawing.Size(75, 23);
+            this.Min.TabIndex = 17;
+            this.Min.Text = "Min";
+            this.Min.UseVisualStyleBackColor = true;
+            this.Min.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Min);
             this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Ctan);
             this.Controls.Add(this.Arccos);
@@ -258,6 +270,7 @@
         private System.Windows.Forms.Button Arccos;
         private System.Windows.Forms.Button Ctan;
         private System.Windows.Forms.Button Arctan;
+        private System.Windows.Forms.Button Min;
     }
 }
 
