@@ -52,6 +52,7 @@
     <Compile Include="OneArgumentCalculator\CtanCalculator.cs" />
     <Compile Include="OneArgumentCalculator\EPowerX.cs" />
     <Compile Include="OneArgumentCalculator\LnCalculator.cs" />
+    <Compile Include="OneArgumentCalculator\Log10Calculator.cs" />
     <Compile Include="OneArgumentCalculator\Log2Calculator.cs" />
     <Compile Include="OneArgumentCalculator\TanCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />

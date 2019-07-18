@@ -28,6 +28,8 @@ namespace OOPCalculator
                     return new LnCalculator();
                 case "Log2":
                     return new Log2Calculator();
+                case "Log10":
+                    return new Log10Calculator();
                 default:
                     throw new Exception("Неизвестная операция");
 
