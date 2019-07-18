@@ -6,7 +6,7 @@ namespace OOPCalculator
     {
         public double Calculate(double firstArgument)
         {
-            return Math.Log10(firstArgument);
+            return Math.Log(firstArgument);
         }
     }
 }
