@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="OneArgumentCalculator\ArccosCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\ArcsinCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\ArctanCalculatorTests.cs" />
@@ -58,6 +57,7 @@
     <Compile Include="OneArgumentCalculator\LnCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\Log10CalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\Log2CalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\OneArgumentsFactoryTests.cs" />
     <Compile Include="OneArgumentCalculator\SinusCalculateTests.cs" />
     <Compile Include="OneArgumentCalculator\TanCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\XPowTwoCalculatorTests.cs" />
@@ -74,6 +74,7 @@
     <Compile Include="TwoArgumentsCalculator\PointRadiusVectorCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\RemainderDivisionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\SubtractionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\TwoArgumentsFactoryTests.cs" />
     <Compile Include="TwoArgumentsCalculator\XPow1DivisionYCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\XPowYCalculatorTests.cs" />
   </ItemGroup>
