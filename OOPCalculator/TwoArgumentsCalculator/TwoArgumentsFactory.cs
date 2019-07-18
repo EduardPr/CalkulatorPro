@@ -18,6 +18,8 @@ namespace OOPCalculator
                     return new DivisionCalculator();
                 case "Min":
                     return new MinCalculator();
+                case "Max":
+                    return new MaxCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

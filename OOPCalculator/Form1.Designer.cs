@@ -46,6 +46,7 @@
             this.Ctan = new System.Windows.Forms.Button();
             this.Arctan = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
+            this.Max = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -220,11 +221,22 @@
             this.Min.UseVisualStyleBackColor = true;
             this.Min.Click += new System.EventHandler(this.Calculate);
             // 
+            // Max
+            // 
+            this.Max.Location = new System.Drawing.Point(689, 169);
+            this.Max.Name = "Max";
+            this.Max.Size = new System.Drawing.Size(75, 23);
+            this.Max.TabIndex = 18;
+            this.Max.Text = "Max";
+            this.Max.UseVisualStyleBackColor = true;
+            this.Max.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Max);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Ctan);
@@ -271,6 +283,7 @@
         private System.Windows.Forms.Button Ctan;
         private System.Windows.Forms.Button Arctan;
         private System.Windows.Forms.Button Min;
+        private System.Windows.Forms.Button Max;
     }
 }
 
