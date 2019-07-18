@@ -34,6 +34,8 @@ namespace OOPCalculator.TwoArgumentsCalculator
                     return new LogX();
                 case "RadiusVector":
                     return new PointRadiusVectorCalculator();
+                case "PointDegree":
+                    return new PointDegreeCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

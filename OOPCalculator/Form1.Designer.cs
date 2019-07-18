@@ -59,6 +59,7 @@
             this.XPow1DivisionY = new System.Windows.Forms.Button();
             this.LogX = new System.Windows.Forms.Button();
             this.RadiusVector = new System.Windows.Forms.Button();
+            this.PointDegree = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -363,11 +364,22 @@
             this.RadiusVector.UseVisualStyleBackColor = true;
             this.RadiusVector.Click += new System.EventHandler(this.Calculate);
             // 
+            // PointDegree
+            // 
+            this.PointDegree.Location = new System.Drawing.Point(271, 228);
+            this.PointDegree.Name = "PointDegree";
+            this.PointDegree.Size = new System.Drawing.Size(75, 23);
+            this.PointDegree.TabIndex = 31;
+            this.PointDegree.Text = "PointDegree";
+            this.PointDegree.UseVisualStyleBackColor = true;
+            this.PointDegree.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PointDegree);
             this.Controls.Add(this.RadiusVector);
             this.Controls.Add(this.LogX);
             this.Controls.Add(this.XPow1DivisionY);
@@ -440,6 +452,7 @@
         private System.Windows.Forms.Button XPow1DivisionY;
         private System.Windows.Forms.Button LogX;
         private System.Windows.Forms.Button RadiusVector;
+        private System.Windows.Forms.Button PointDegree;
     }
 }
 
