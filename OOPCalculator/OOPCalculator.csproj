@@ -69,6 +69,7 @@
     <Compile Include="OneArgumentCalculator\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\GeometricMeanCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculator\LogX.cs" />
     <Compile Include="TwoArgumentsCalculator\MaxCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\MinCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplyCalculator.cs" />

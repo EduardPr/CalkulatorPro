@@ -30,6 +30,8 @@ namespace OOPCalculator.TwoArgumentsCalculator
                     return new XPowYCalculator();
                 case "XPow1DivisionY":
                     return new XPow1DivisionYCalculator();
+                case "LogX":
+                    return new LogX();
                 default:
                     throw new Exception("Неизвестная операция");
             }
