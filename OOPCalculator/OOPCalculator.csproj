@@ -79,6 +79,7 @@
     <Compile Include="TwoArgumentsCalculator\RemainderDivisionCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\SubtractionCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArgumentsCalculator\XPowYCalculator.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

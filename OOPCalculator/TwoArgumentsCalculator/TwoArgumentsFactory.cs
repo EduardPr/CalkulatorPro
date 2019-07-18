@@ -26,6 +26,8 @@ namespace OOPCalculator
                     return new GeometricMeanCalculator();
                 case "Remainder":
                     return new RemainderDivisionCalculator();
+                case "XPowY":
+                    return new XPowYCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }
