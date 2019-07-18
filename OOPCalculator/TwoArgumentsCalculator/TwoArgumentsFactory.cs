@@ -28,6 +28,8 @@ namespace OOPCalculator
                     return new RemainderDivisionCalculator();
                 case "XPowY":
                     return new XPowYCalculator();
+                case "XPow1DivisionY":
+                    return new XPow1DivisionYCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }
