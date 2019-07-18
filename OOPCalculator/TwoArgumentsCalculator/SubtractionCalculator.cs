@@ -1,4 +1,4 @@
-﻿namespace OOPCalculator
+﻿namespace OOPCalculator.TwoArgumentsCalculator
 {
     public class SubtractionCalculator: ITwoArgumentsCalculator
 

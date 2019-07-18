@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using OOPCalculator.OneArgumentCalculator;
+using OOPCalculator.TwoArgumentsCalculator;
 
 namespace OOPCalculator
 {

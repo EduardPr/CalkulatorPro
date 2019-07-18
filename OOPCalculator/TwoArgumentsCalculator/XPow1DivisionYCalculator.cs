@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OOPCalculator
+namespace OOPCalculator.TwoArgumentsCalculator
 {
     public class XPow1DivisionYCalculator:ITwoArgumentsCalculator
     {

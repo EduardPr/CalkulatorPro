@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OOPCalculator
+namespace OOPCalculator.TwoArgumentsCalculator
 {
     public static class TwoArgumentsFactory
     {

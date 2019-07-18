@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OOPCalculator
+namespace OOPCalculator.OneArgumentCalculator
 {
     public class CosinusCalculator:IOneArgumentCalculator
     {

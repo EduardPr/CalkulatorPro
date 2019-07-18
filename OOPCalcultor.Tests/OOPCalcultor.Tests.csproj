@@ -49,7 +49,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="OneArgumentCalculator\CosinusCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\SinusCalculateTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArgumentsCalculator\AdditionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\MultiplyCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\SubtractionCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OOPCalculator\OOPCalculator.csproj">
@@ -60,6 +66,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

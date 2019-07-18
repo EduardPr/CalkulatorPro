@@ -1,8 +1,4 @@
-﻿using System;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-
-namespace OOPCalculator
+﻿namespace OOPCalculator.TwoArgumentsCalculator
 {
     public class MinCalculator: ITwoArgumentsCalculator
     {
