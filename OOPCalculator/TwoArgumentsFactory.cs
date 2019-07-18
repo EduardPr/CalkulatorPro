@@ -16,7 +16,8 @@ namespace OOPCalculator
                     return  new MultiplyCalculator();
                 case "Division":
                     return new DivisionCalculator();
-                default: throw new Exception("Неизвестная операция");
+                default:
+                    throw new Exception("Неизвестная операция");
             }
         }
     }

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdditionCalculator.cs" />
+    <Compile Include="CosinusCalculator.cs" />
     <Compile Include="DivisionCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -54,10 +55,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IOneArgumentCalculator.cs" />
     <Compile Include="ITwoArgumentsCalculator.cs" />
     <Compile Include="MultiplyCalculator.cs" />
+    <Compile Include="OneArgumentsFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SinusCalculator.cs" />
     <Compile Include="SubtractionCalculator.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
