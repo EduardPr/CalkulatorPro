@@ -24,6 +24,8 @@ namespace OOPCalculator
                     return new ArctanCalculator();
                 case "Expow":
                     return new EPowerX();
+                case "Log10":
+                    return new LnCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
 

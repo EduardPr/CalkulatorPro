@@ -51,6 +51,7 @@
     <Compile Include="OneArgumentCalculator\ArctanCalculator.cs" />
     <Compile Include="OneArgumentCalculator\CtanCalculator.cs" />
     <Compile Include="OneArgumentCalculator\EPowerX.cs" />
+    <Compile Include="OneArgumentCalculator\LnCalculator.cs" />
     <Compile Include="OneArgumentCalculator\TanCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />
     <Compile Include="OneArgumentCalculator\CosinusCalculator.cs" />

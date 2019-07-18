@@ -51,6 +51,7 @@
             this.Geom = new System.Windows.Forms.Button();
             this.Remainder = new System.Windows.Forms.Button();
             this.Expow = new System.Windows.Forms.Button();
+            this.Log10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -275,11 +276,22 @@
             this.Expow.UseVisualStyleBackColor = true;
             this.Expow.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Log10
+            // 
+            this.Log10.Location = new System.Drawing.Point(352, 200);
+            this.Log10.Name = "Log10";
+            this.Log10.Size = new System.Drawing.Size(75, 23);
+            this.Log10.TabIndex = 23;
+            this.Log10.Text = "Log10";
+            this.Log10.UseVisualStyleBackColor = true;
+            this.Log10.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Log10);
             this.Controls.Add(this.Expow);
             this.Controls.Add(this.Remainder);
             this.Controls.Add(this.Geom);
@@ -336,6 +348,7 @@
         private System.Windows.Forms.Button Geom;
         private System.Windows.Forms.Button Remainder;
         private System.Windows.Forms.Button Expow;
+        private System.Windows.Forms.Button Log10;
     }
 }
 
