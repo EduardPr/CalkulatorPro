@@ -16,6 +16,10 @@ namespace OOPCalculator
                     return new TanCalculator();
                 case "Arcsin":
                     return new ArcsinCalculator();
+                case "Arccos":
+                    return new ArccosCalculator();
+                case "Ctan":
+                    return new CtanCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
 

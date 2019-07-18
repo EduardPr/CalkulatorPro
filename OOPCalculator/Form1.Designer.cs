@@ -42,6 +42,8 @@
             this.Cos = new System.Windows.Forms.Button();
             this.Tan = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
+            this.Arccos = new System.Windows.Forms.Button();
+            this.Ctan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -176,11 +178,33 @@
             this.Arcsin.UseVisualStyleBackColor = true;
             this.Arcsin.Click += new System.EventHandler(this.OneArgumentCalculate);
             // 
+            // Arccos
+            // 
+            this.Arccos.Location = new System.Drawing.Point(414, 202);
+            this.Arccos.Name = "Arccos";
+            this.Arccos.Size = new System.Drawing.Size(75, 23);
+            this.Arccos.TabIndex = 14;
+            this.Arccos.Text = "Arccos";
+            this.Arccos.UseVisualStyleBackColor = true;
+            this.Arccos.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
+            // Ctan
+            // 
+            this.Ctan.Location = new System.Drawing.Point(640, 199);
+            this.Ctan.Name = "Ctan";
+            this.Ctan.Size = new System.Drawing.Size(75, 23);
+            this.Ctan.TabIndex = 15;
+            this.Ctan.Text = "Ctan";
+            this.Ctan.UseVisualStyleBackColor = true;
+            this.Ctan.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Ctan);
+            this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Tan);
             this.Controls.Add(this.Cos);
@@ -219,6 +243,8 @@
         private System.Windows.Forms.Button Cos;
         private System.Windows.Forms.Button Tan;
         private System.Windows.Forms.Button Arcsin;
+        private System.Windows.Forms.Button Arccos;
+        private System.Windows.Forms.Button Ctan;
     }
 }
 
