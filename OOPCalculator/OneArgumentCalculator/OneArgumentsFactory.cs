@@ -30,6 +30,8 @@ namespace OOPCalculator
                     return new Log2Calculator();
                 case "Log10":
                     return new Log10Calculator();
+                case "Pow":
+                    return new XPowTwoCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
 
