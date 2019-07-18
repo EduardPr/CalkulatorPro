@@ -22,6 +22,8 @@ namespace OOPCalculator
                     return new CtanCalculator();
                 case "Arctan":
                     return new ArctanCalculator();
+                case "Expow":
+                    return new EPowerX();
                 default:
                     throw new Exception("Неизвестная операция");
 

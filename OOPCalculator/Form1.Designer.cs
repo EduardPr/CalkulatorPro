@@ -50,6 +50,7 @@
             this.Arith = new System.Windows.Forms.Button();
             this.Geom = new System.Windows.Forms.Button();
             this.Remainder = new System.Windows.Forms.Button();
+            this.Expow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -264,11 +265,22 @@
             this.Remainder.UseVisualStyleBackColor = true;
             this.Remainder.Click += new System.EventHandler(this.Calculate);
             // 
+            // Expow
+            // 
+            this.Expow.Location = new System.Drawing.Point(271, 199);
+            this.Expow.Name = "Expow";
+            this.Expow.Size = new System.Drawing.Size(75, 23);
+            this.Expow.TabIndex = 22;
+            this.Expow.Text = "Expow";
+            this.Expow.UseVisualStyleBackColor = true;
+            this.Expow.Click += new System.EventHandler(this.OneArgumentCalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Expow);
             this.Controls.Add(this.Remainder);
             this.Controls.Add(this.Geom);
             this.Controls.Add(this.Arith);
@@ -323,6 +335,7 @@
         private System.Windows.Forms.Button Arith;
         private System.Windows.Forms.Button Geom;
         private System.Windows.Forms.Button Remainder;
+        private System.Windows.Forms.Button Expow;
     }
 }
 
