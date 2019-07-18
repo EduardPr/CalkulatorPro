@@ -20,6 +20,8 @@ namespace OOPCalculator
                     return new MinCalculator();
                 case "Max":
                     return new MaxCalculator();
+                case "Arith":
+                    return new ArithmeticMeanCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

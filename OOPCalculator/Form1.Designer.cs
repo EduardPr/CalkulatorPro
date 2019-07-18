@@ -47,6 +47,7 @@
             this.Arctan = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
+            this.Arith = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -231,11 +232,22 @@
             this.Max.UseVisualStyleBackColor = true;
             this.Max.Click += new System.EventHandler(this.Calculate);
             // 
+            // Arith
+            // 
+            this.Arith.Location = new System.Drawing.Point(28, 200);
+            this.Arith.Name = "Arith";
+            this.Arith.Size = new System.Drawing.Size(75, 23);
+            this.Arith.TabIndex = 19;
+            this.Arith.Text = "Arith";
+            this.Arith.UseVisualStyleBackColor = true;
+            this.Arith.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Arith);
             this.Controls.Add(this.Max);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.Arctan);
@@ -284,6 +296,7 @@
         private System.Windows.Forms.Button Arctan;
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Max;
+        private System.Windows.Forms.Button Arith;
     }
 }
 
