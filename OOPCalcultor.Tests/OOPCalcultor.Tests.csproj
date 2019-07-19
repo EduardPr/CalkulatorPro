@@ -50,12 +50,22 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="OneArgumentCalculator\CosinusCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\EPowerXTests.cs" />
+    <Compile Include="OneArgumentCalculator\LnCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\Log10CalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\Log2CalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SinusCalculateTests.cs" />
+    <Compile Include="OneArgumentCalculator\XPowTwoCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\LogXTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplyCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\PointDegreeCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\PointRadiusVectorCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\SubtractionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\XPow1DivisionYCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\XPowYCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OOPCalculator\OOPCalculator.csproj">
