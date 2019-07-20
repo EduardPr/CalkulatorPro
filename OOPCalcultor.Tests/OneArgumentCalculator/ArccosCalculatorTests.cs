@@ -22,8 +22,6 @@ namespace OOPCalcultor.Tests.OneArgumentCalculator
         {
             IOneArgumentCalculator calculator = new ArccosCalculator();
             Assert.Throws<Exception>(() => calculator.Calculate(14));
-
-
         }
     }
 }

@@ -9,14 +9,11 @@ namespace OOPCalcultor.Tests.TwoArgumentsCalculator
         [TestCase(1, 2, 1)]
         [TestCase(1, 3, 1)]
         [TestCase(2, 5, 2)]
-
         public void CalculateTest(double firstValue, double secondValue, double expected)
-
         {
             var calculator = new RemainderDivisionCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
     }
-
 }

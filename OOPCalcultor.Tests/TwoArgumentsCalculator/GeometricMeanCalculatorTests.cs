@@ -9,9 +9,7 @@ namespace OOPCalcultor.Tests.TwoArgumentsCalculator
         [TestCase(2, 2, 2)]
         [TestCase(3, 4, 6)]
         [TestCase(4, 4, 8)]
-
         public void CalculateTest(double firstValue, double secondValue, double expected)
-
         {
             var calculator = new GeometricMeanCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);

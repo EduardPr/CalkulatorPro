@@ -6,7 +6,6 @@ namespace OOPCalcultor.Tests.TwoArgumentsCalculator
 {
     [TestFixture]
     public class AdditionCalculatorTests
-
     {
         [Test]
         public void Calculate()

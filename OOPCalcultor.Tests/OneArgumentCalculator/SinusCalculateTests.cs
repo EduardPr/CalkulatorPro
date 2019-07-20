@@ -5,7 +5,6 @@ namespace OOPCalcultor.Tests.OneArgumentCalculator
 {
     [TestFixture]
     public class SinusCalculatorTests
-
     {
         [Test]
         public void Calculate()
