@@ -4,6 +4,11 @@ namespace OOPCalculator.TwoArgumentsCalculator
 {
     public static class TwoArgumentsFactory
     {
+        /// <summary>
+        /// Factory for two arguments factory
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
            
