@@ -2,7 +2,7 @@
 
 namespace OOPCalculator.TwoArgumentsCalculator
 {
-    public class LogX: ITwoArgumentsCalculator
+    public class LogX : ITwoArgumentsCalculator
     {
         /// <summary>
         /// Return the logarithm of the specified number with the specified base
@@ -12,7 +12,7 @@ namespace OOPCalculator.TwoArgumentsCalculator
         /// <returns></returns>
         public double Calculate(double firstArgument, double secondArgument)
         {
-            if (firstArgument <= 0 || secondArgument<=1)
+            if (firstArgument <= 0 || secondArgument <= 1)
             {
                 throw new Exception("Нельзя по правилам");
             }

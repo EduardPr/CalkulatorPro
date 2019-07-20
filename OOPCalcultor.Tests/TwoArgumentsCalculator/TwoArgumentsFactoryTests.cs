@@ -1,6 +1,5 @@
 ﻿using System;
 using NUnit.Framework;
-using OOPCalculator.OneArgumentCalculator;
 using OOPCalculator.TwoArgumentsCalculator;
 
 namespace OOPCalcultor.Tests.TwoArgumentsCalculator

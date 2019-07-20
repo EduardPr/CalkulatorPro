@@ -8,7 +8,7 @@ namespace OOPCalculator.OneArgumentCalculator
         /// Calculates arccosine
         /// </summary>
         /// <param name="firstArgument"></param>
-        /// <returns>Resultat</returns>
+        /// <returns></returns>
         public double Calculate(double firstArgument)
         {
             if (firstArgument <-1 || firstArgument>1)

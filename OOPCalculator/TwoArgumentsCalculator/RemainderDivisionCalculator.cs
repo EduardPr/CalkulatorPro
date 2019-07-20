@@ -1,7 +1,6 @@
 ﻿namespace OOPCalculator.TwoArgumentsCalculator
 {
     public class RemainderDivisionCalculator:ITwoArgumentsCalculator
-
     {
         /// <summary>
         /// Calculating the remainder of dividing two arguments
@@ -12,7 +11,6 @@
         public double Calculate(double firstArgument, double secondArgument)
         {
             return firstArgument%secondArgument;
-
         }
     }
 }

@@ -5,7 +5,7 @@ namespace OOPCalculator.OneArgumentCalculator
     /// <summary>
     /// Factory for one argument functions
     /// </summary>
-    public class OneArgumentsFactory
+    public static class OneArgumentsFactory
     {
         public static IOneArgumentCalculator CreateCalculator(string name)
         {

@@ -2,7 +2,7 @@
 
 namespace OOPCalculator.TwoArgumentsCalculator
 {
-    public class XPow1DivisionYCalculator:ITwoArgumentsCalculator
+    public class XPow1DivisionYCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
         /// Calculate X to degree 1 divided by Y
@@ -16,7 +16,7 @@ namespace OOPCalculator.TwoArgumentsCalculator
             {
                 throw new Exception("Нельзя по правилам");
             }
-            return Math.Pow(firstArgument, 1/secondArgument);
+            return Math.Pow(firstArgument, 1 / secondArgument);
 
         }
     }

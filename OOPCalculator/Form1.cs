@@ -45,10 +45,9 @@ namespace OOPCalculator
             {
                 double firstArgument = Convert.ToDouble(textBox1.Text);
                 double secondArgument = Convert.ToDouble(textBox2.Text);
-                double result;
 
                 ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-                result = calculator.Calculate(firstArgument, secondArgument);
+                var result = calculator.Calculate(firstArgument, secondArgument);
                 textBox3.Text = result.ToString();
             }
             catch (Exception exc)
@@ -63,10 +62,9 @@ namespace OOPCalculator
             try
             {
                 double firstArgument = Convert.ToDouble(textBox1.Text);
-                double result;
 
                 IOneArgumentCalculator calculator = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
-                result = calculator.Calculate(firstArgument);
+                var result = calculator.Calculate(firstArgument);
                 textBox3.Text = result.ToString();
             }
             catch (Exception exc)

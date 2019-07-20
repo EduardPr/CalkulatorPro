@@ -11,7 +11,6 @@ namespace OOPCalculator.TwoArgumentsCalculator
         /// <returns></returns>
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
-           
             switch (name)
             {
                 case "Add":
