@@ -7,7 +7,7 @@ namespace OOPCalculator.OneArgumentCalculator
         /// <summary>
         /// Calculates arctangent
         /// </summary>
-        /// <param name="firstArgument">Argument</param>
+        /// <param name="firstArgument"></param>
         /// <returns>Resultat</returns>
         public double Calculate(double firstArgument)
         {
