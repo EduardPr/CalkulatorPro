@@ -4,8 +4,12 @@ namespace OOPCalculator.OneArgumentCalculator
 {
     public class Log2Calculator: IOneArgumentCalculator
     {
-      
-    public double Calculate(double firstArgument)
+        /// <summary>
+        /// Calculates base 2 logarithm
+        /// </summary>
+        /// <param name="firstArgument">Number</param>
+        /// <returns>Result</returns>
+        public double Calculate(double firstArgument)
         {
             if (firstArgument <= 0)
             {
