@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using OOPCalculator.OneArgumentCalculator;
 
 namespace OOPCalcultor.Tests.OneArgumentCalculator
@@ -14,6 +15,15 @@ namespace OOPCalcultor.Tests.OneArgumentCalculator
             var calculator = new ArccosCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.0001);
+        }
+
+        [Test]
+        public void DivisionByZeroTest()
+        {
+            IOneArgumentCalculator calculator = new ArccosCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(14));
+
+
         }
     }
 }

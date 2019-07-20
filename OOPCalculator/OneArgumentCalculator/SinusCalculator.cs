@@ -7,6 +7,7 @@ namespace OOPCalculator.OneArgumentCalculator
     {
         public double Calculate(double firstArgument)
         {
+          
             return Math.Sin(firstArgument);
         }
     }
